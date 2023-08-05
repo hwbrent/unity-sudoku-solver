@@ -7,7 +7,7 @@ public class Board : MonoBehaviour
     // Set in the Unity editor.
     // We do this so that we can dynamically create instances of the Cell
     // class.
-    public GameObject cell;
+    public GameObject cellPrefab;
 
     // Start is called before the first frame update
     void Start()

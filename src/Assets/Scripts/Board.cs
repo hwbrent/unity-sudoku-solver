@@ -12,7 +12,16 @@ public class Board : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(this.cell);
+        int rows = 9;
+        int columns = 9;
+
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < columns; j++)
+            {
+                
+            }
+        }
     }
 
     // Update is called once per frame

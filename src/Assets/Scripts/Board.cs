@@ -24,6 +24,8 @@ public class Board : MonoBehaviour
             for (int j = 0; j < columns; j++)
             {
                 var cell = Instantiate(this.cellPrefab);
+
+                this.cells.Add(cell);
             }
         }
     }
